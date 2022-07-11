@@ -13,7 +13,7 @@ title: Маршрутизация
 ```
  - usr
     - modules
-        - {container-name}
+        - {module-name}
             - UI
                 - API
                    - Routes
@@ -21,7 +21,7 @@ title: Маршрутизация
                       - DeleteItem.v1.public.php
                       - CreateItem.v2.public.php
                       - DeleteItem.v1.private.php
-                      - ApproveItem.v1.private.php
+                      - ActiveItem.v1.private.php
                       - ...
                 - WEB
                    - Routes
