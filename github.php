@@ -55,7 +55,7 @@ function validateGithubWebhook($known_token)
     $rrr = json_decode($json);
     if ($rrr->ref == 'refs/heads/main') {
       commandExec('git pull');
-      commandExec('npm run build');
+      // commandExec('npm run build');
     }
   }
 }

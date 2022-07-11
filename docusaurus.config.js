@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Darklyy',
-  tagline: 'Dinosaurs are cool',
+  tagline: 'FRAMEWORK',
   url: 'https://darklyy.ru',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -23,8 +23,8 @@ const config = {
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'ru',
-    locales: ['ru'],
+    defaultLocale: 'en',
+    locales: ['en'],
   },
 
   presets: [
@@ -69,7 +69,7 @@ const config = {
             position: 'left',
             label: 'Документация',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+         
           {
             href: 'https://github.com/darkeum/ATRIENERGO',
             label: 'GitHub',
@@ -94,28 +94,25 @@ const config = {
             items: [
               {
                 label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                href: 'http://darklyy.ru/',
               },
               {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                href: 'http://darklyy.ru/',
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'http://darklyy.ru/',
               },
             ],
           },
           {
             title: 'More',
             items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
+             
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/darkeum/ATRIENERGO',
               },
             ],
           },
