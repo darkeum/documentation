@@ -59,7 +59,7 @@ const config = {
       navbar: {
         title: 'Darklyy',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Darklyy framework logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -92,18 +92,18 @@ const config = {
           {
             title: 'Сообщество',
             items: [
-              {
-                label: 'Stack Overflow',
-                href: 'http://darklyy.ru/',
-              },
-              {
-                label: 'Discord',
-                href: 'http://darklyy.ru/',
-              },
-              {
-                label: 'Twitter',
-                href: 'http://darklyy.ru/',
-              },
+              // {
+              //   label: 'Stack Overflow',
+              //   href: 'http://darklyy.ru',
+              // },
+              // {
+              //   label: 'Discord',
+              //   href: 'http://darklyy.ru',
+              // },
+              // {
+              //   label: 'Twitter',
+              //   href: 'http://darklyy.ru',
+              // },
             ],
           },
           {
