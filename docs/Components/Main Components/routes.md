@@ -1,7 +1,15 @@
 ---
-title: Маршрутизация
+title: Маршрутизация (Routes)
 ---
 
+- [Определение и принципы](#definition-principles)
+- [Правила](#rules)
+- [Структура папок](#folder-structure)
+- [Пример кода](#code-sample)
+
+### Определение и принципы {#definition-principles}
+
+Прочтите [**Определения и принципы -> Маршрутизация (Routes)**](/docs/Structure/Definitions/routes)
 
 ### Правила {#rules}
 
