@@ -81,16 +81,16 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Документация',
             items: [
               {
-                label: 'Документация',
+                label: 'Быстрый старт',
                 to: '/docs/intro',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'Сообщество',
             items: [
               {
                 label: 'Stack Overflow',
@@ -107,7 +107,7 @@ const config = {
             ],
           },
           {
-            title: 'More',
+            title: 'Еще',
             items: [
              
               {
@@ -117,7 +117,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Darklyy Framework, Inc. Built with Docusaurus.`,
       },
       prism: {
         additionalLanguages: ['php'],
