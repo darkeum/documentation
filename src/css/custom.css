@@ -80,6 +80,39 @@ a.table-of-contents__link--active:before {
   height: 100%;
 }
 
+.navbar__title {
+  top: -6px;
+  position: relative;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  background: rgb(15,96,255);
+  background: -moz-linear-gradient(90deg, rgba(15,96,255,1) 0%, rgba(157,230,221,1) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(15,96,255,1) 0%, rgba(157,230,221,1) 100%);
+  background: linear-gradient(90deg, rgba(15,96,255,1) 0%, rgba(157,230,221,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0f60ff",endColorstr="#9de6dd",GradientType=1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.navbar__brand {
+  position: relative;
+}
+
+.navbar__brand:before {
+  content: 'FRAMEWORK';
+  position: absolute;
+  text-align: center;
+  font-size: .6rem;
+  bottom: -2px;
+  left: 18px;
+  color: #6BDAAA;
+  font-family: "Montserrat ExtraBold", serif !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 .navbar__inner {
   height: 44px;
 }
@@ -95,6 +128,16 @@ a.table-of-contents__link--active:before {
 
 code {
   color: indianred;
+}
+
+.text-gradient {
+  background: rgb(15,96,255);
+  background: -moz-linear-gradient(90deg, rgba(15,96,255,1) 0%, rgba(157,230,221,1) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(15,96,255,1) 0%, rgba(157,230,221,1) 100%);
+  background: linear-gradient(90deg, rgba(15,96,255,1) 0%, rgba(157,230,221,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0f60ff",endColorstr="#9de6dd",GradientType=1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .heroBanner_src-pages-index-module {

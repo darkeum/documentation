@@ -58,10 +58,10 @@ const config = {
     ({
       navbar: {
         title: 'Darklyy',
-        logo: {
-          alt: 'Darklyy framework logo',
-          src: 'img/logo.svg',
-        },
+        // logo: {
+        //   alt: 'Darklyy framework logo',
+        //   src: 'img/logo.svg',
+        // },
         items: [
           {
             type: 'doc',
