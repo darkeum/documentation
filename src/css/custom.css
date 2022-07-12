@@ -4,6 +4,22 @@
  * work well for content-centric websites.
  */
 
+@font-face {font-family: "Montserrat ExtraBold";
+  src: url("../fonts/1f275ed58d6a371ccde9215a3963cc41.eot"); /* IE9*/
+  src: url("../fonts/1f275ed58d6a371ccde9215a3963cc41.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("../fonts/1f275ed58d6a371ccde9215a3963cc41.woff2") format("woff2"), /* chrome、firefox */
+  url("../fonts/1f275ed58d6a371ccde9215a3963cc41.woff") format("woff"), /* chrome、firefox */
+  url("../fonts/1f275ed58d6a371ccde9215a3963cc41.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url("../fonts/1f275ed58d6a371ccde9215a3963cc41.svg#Montserrat ExtraBold") format("svg"); /* iOS 4.1- */
+}
+
+.font {
+  font-family: "Montserrat ExtraBold", serif !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;}
+
 /* You can override the default Infima variables here. */
 :root {
   --ifm-color-primary: #2e8555;
@@ -53,6 +69,11 @@ a.table-of-contents__link--active:before {
   height: 100vh;
 }
 
+.hero__title {
+  margin-bottom: 0;
+  font-size: 6rem;
+}
+
 .heroBanner_src-pages-index-module {
   height: 100%;
 }
@@ -80,4 +101,18 @@ code {
   /*background: -webkit-linear-gradient(90deg, rgba(15,96,255,1) 0%, rgba(157,230,221,1) 100%);*/
   /*background: linear-gradient(90deg, rgba(15,96,255,1) 0%, rgba(157,230,221,1) 100%);*/
   /*filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0f60ff",endColorstr="#9de6dd",GradientType=1);*/
+}
+
+.pagination-nav__sublabel {
+  display: none;
+}
+
+/* Временное скроем кнопку редактирования документации */
+.theme-doc-footer-edit-meta-row {
+  display: none;
+}
+
+a.button svg {
+  vertical-align: middle;
+  margin-left: 4px;
 }
