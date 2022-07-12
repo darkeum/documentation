@@ -4,22 +4,6 @@
  * work well for content-centric websites.
  */
 
-@font-face {font-family: "Montserrat ExtraBold";
-  src: url("../fonts/1f275ed58d6a371ccde9215a3963cc41.eot"); /* IE9*/
-  src: url("../fonts/1f275ed58d6a371ccde9215a3963cc41.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-  url("../fonts/1f275ed58d6a371ccde9215a3963cc41.woff2") format("woff2"), /* chrome、firefox */
-  url("../fonts/1f275ed58d6a371ccde9215a3963cc41.woff") format("woff"), /* chrome、firefox */
-  url("../fonts/1f275ed58d6a371ccde9215a3963cc41.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
-  url("../fonts/1f275ed58d6a371ccde9215a3963cc41.svg#Montserrat ExtraBold") format("svg"); /* iOS 4.1- */
-}
-
-.font {
-  font-family: "Montserrat ExtraBold", serif !important;
-  font-style: normal;
-  -webkit-font-smoothing: antialiased;
-  -webkit-text-stroke-width: 0.2px;
-  -moz-osx-font-smoothing: grayscale;}
-
 /* You can override the default Infima variables here. */
 :root {
   --ifm-color-primary: #2e8555;
@@ -44,6 +28,155 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+/* CUSTOM */
+/* Шрифт */
+@font-face {font-family: "Montserrat ExtraBold";
+  src: url("../fonts/1f275ed58d6a371ccde9215a3963cc41.eot"); /* IE9*/
+  src: url("../fonts/1f275ed58d6a371ccde9215a3963cc41.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("../fonts/1f275ed58d6a371ccde9215a3963cc41.woff2") format("woff2"), /* chrome、firefox */
+  url("../fonts/1f275ed58d6a371ccde9215a3963cc41.woff") format("woff"), /* chrome、firefox */
+  url("../fonts/1f275ed58d6a371ccde9215a3963cc41.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url("../fonts/1f275ed58d6a371ccde9215a3963cc41.svg#Montserrat ExtraBold") format("svg"); /* iOS 4.1- */
+}
+
+.font {
+  font-family: "Montserrat ExtraBold", serif !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ROOT Цвета */
+:root {
+  --blue: #467fcf;
+  --indigo: #6574cd;
+  --purple: #a55eea;
+  --pink: #f66d9b;
+  --red: #cd201f;
+  --orange: #fd9644;
+  --yellow: #f1c40f;
+  --green: #5eba00;
+  --teal: #2bcbba;
+  --cyan: #17a2b8;
+  --white: #fff;
+  --gray: #868e96;
+  --gray-dark: #343a40;
+  --azure: #45aaf2;
+  --lime: #7bd235;
+  --primary: #467fcf;
+  --secondary: #868e96;
+  --success: #5eba00;
+  --info: #45aaf2;
+  --warning: #f1c40f;
+  --danger: #cd201f;
+  --light: #f8f9fa;
+  --dark: #343a40;
+
+  --class: rgb(0, 0, 159);
+  --var: rgb(54, 172, 170);
+  --func: rgb(215, 58, 73);
+}
+
+/* Color цвета */
+.color-blue {
+  color: var(--blue);
+}
+.color-indigo {
+  color: var(--indigo);
+}
+.color-purple {
+  color: var(--purple);
+}
+.color-pink {
+  color: var(--pink);
+}
+.color-red {
+  color: var(--red);
+}
+.color-orange {
+  color: var(--orange);
+}
+.color-yellow {
+  color: var(--yellow);
+}
+.color-green {
+  color: var(--green);
+}
+.color-teal {
+  color: var(--teal);
+}
+.color-cyan {
+  color: var(--cyan);
+}
+.color-white {
+  color: var(--white);
+}
+.color-gray {
+  color: var(--gray);
+}
+.color-gray-dark {
+  color: var(--gray-dark);
+}
+.color-azure {
+  color: var(--azure);
+}
+.color-lime {
+  color: var(--lime);
+}
+.color-primary {
+  color:   var(--primary);
+}
+.color-secondary {
+  color: var(--secondary);
+}
+.color-success {
+  color: var(--success);
+}
+.color-info {
+  color: var(--info);
+}
+.color-warning {
+  color: var(--warning);
+}
+.color-danger {
+  color: var(--danger);
+}
+.color-light {
+  color: var(--light);
+}
+.color-dark {
+  color: var(--dark);
+}
+
+/** code {*/
+/*  cursor: pointer;*/
+/*}*/
+
+true, true code {
+  color: var(--green);
+}
+
+else, else code {
+  color: var(--primary);
+}
+
+false, false code {
+  color: var(--danger);
+}
+
+/* Цвета типов */
+func, func code {
+  color: var(--cyan);
+  border-color: var(--cyan);
+}
+class, class code {
+  color: var(--primary);
+  border-color: var(--primary);
+}
+
+/*  */
 
 a {
   text-decoration: none!important;
@@ -125,10 +258,6 @@ a.table-of-contents__link--active:before {
   border: 1px solid var(--ifm-toc-border-color);
   border-radius: 3px;
   margin-right: 3px;
-}
-
-code {
-  color: indianred;
 }
 
 .text-gradient {
