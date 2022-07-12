@@ -104,8 +104,9 @@ a.table-of-contents__link--active:before {
   text-align: center;
   font-size: .6rem;
   bottom: -2px;
-  left: 18px;
+  left: 16px;
   color: #6BDAAA;
+  letter-spacing: .5px;
   font-family: "Montserrat ExtraBold", serif !important;
   font-style: normal;
   -webkit-font-smoothing: antialiased;
