@@ -154,15 +154,15 @@
 /*  cursor: pointer;*/
 /*}*/
 
-true, true code {
+green, true, true code {
   color: var(--green);
 }
 
-else, else code {
+blue, else, else code {
   color: var(--primary);
 }
 
-false, false code {
+red, false, false code {
   color: var(--danger);
 }
 
