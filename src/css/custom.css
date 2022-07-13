@@ -76,7 +76,8 @@
 
   --class: rgb(0, 0, 159);
   --var: rgb(54, 172, 170);
-  --func: rgb(215, 58, 73);
+  --func-orig: rgb(215, 58, 73);
+  --func-orig-2: rgb(54, 172, 170);
 }
 
 /* Color цвета */
