@@ -64,8 +64,8 @@ const config = {
         // },
         items: [
           {
-            type: 'doc',
-            docId: 'intro',
+            to: 'docs/',
+            activeBasePath: 'docs',
             position: 'left',
             label: 'Документация',
           },
@@ -85,7 +85,7 @@ const config = {
             items: [
               {
                 label: 'Быстрый старт',
-                to: '/docs/intro',
+                to: '/docs/',
               },
             ],
           },
