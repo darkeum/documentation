@@ -13,7 +13,7 @@ title: Маршрутизация (Routes)
 
 ### Правила {#rules}
 
-- Файлы маршрутов API должны быть названы в соответствии с версией, доступностью и функциональностью их API. например `CreateOrder.v1.public.php`, `FulfillOrder.v2.public.php`, `CancelOrder.v1.private.php` и тд.
+- Файлы маршрутов API должны быть названы в соответствии с версией, доступностью и функциональностью их API. например <false>`CreateOrder.v1.public.php`</false>, <false>`FulfillOrder.v2.public.php`</false>, <false>`CancelOrder.v1.private.php`</false> и тд.
 - Файлы веб-маршрута очень похожи на веб-файлы API, но они могут называться как угодно.
 
 ### Структура папок {#folder-structure}

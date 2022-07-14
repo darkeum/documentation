@@ -163,7 +163,7 @@ blue, else, else code {
   color: var(--primary);
 }
 
-red, false, false code {
+var, red, false, false code {
   color: var(--danger);
 }
 

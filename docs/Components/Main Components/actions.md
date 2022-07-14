@@ -12,7 +12,7 @@ title: Действия (Actions)
 
 ### Правила {#rules}
 
-- Все действия должны наследоваться `Boot\Abstracts\Actions\Action`.
+- Все действия должны наследоваться <false>`Boot\Abstracts\Actions\Action`</false>.
 
 ### Структура папок {#folder-structure}
 
