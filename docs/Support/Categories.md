@@ -7,7 +7,7 @@ title: Работа с категориями
 
 ``` php
 use \Boot\Support\Facades\Categories;
-Categories::getModuleCategories();
+Categories::getModuleCategories('news');
 #(array)[1 => 'Акции', 2 => 'Новости']
 ```
 
@@ -18,7 +18,7 @@ Categories::getModuleCategories();
 Функция выдает категории указанного модуля, если категорий нет выдаст пустой массив
 
 ``` php
-Categories::getModuleCategories();
+Categories::getModuleCategories('news');
 #Результат
 #(array)[1 => 'Акции', 2 => 'Новости']
 ```
@@ -67,3 +67,16 @@ Categories::getCategories();
 #Результат
 ```
 
+## Вспомогательные функции
+
+Все выше указанные методы могут быть вызваны через соответствующее им функции:
+
+`Categories::getModuleCategories($module);` => `get_module_categories($module);`
+
+`Categories::getCategoryFullUrl($key, $url = null);` => `get_category_full_url($key, $url = null);`
+
+`Categories::getCategoryBySlug($slug);` => `get_category_by_slug($slug);`
+
+`Categories::getCategory($key);` => ` get_category($key);`
+
+`Categories::getCategories();` => `get_categories($module);`
