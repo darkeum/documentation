@@ -2,7 +2,7 @@
 title: Помощники (Helpers)
 ---
 
-- [Определение и принципы](#definition)
+- [Определение](#definition)
 - [Принципы](#principles)
 - [Правила](#rules)
 - [Структура папок](#folder-structure)
