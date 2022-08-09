@@ -47,6 +47,7 @@ Container
 	    │   ├── Routes
 	    │   ├── Controllers
 	    │   ├── Requests
+	    │   ├── Grid
 	    │   ├── Views
 	    │   └── Tests
 	    │       └── Acceptance
