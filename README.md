@@ -4,6 +4,11 @@ This website is built using [Docusaurus 2](https://docusaurus.io/), a modern sta
 
 npm - https://www.npmjs.com/package/docusaurus
 
+### Быстрая установка
+
+``` 
+$ npm i docusaurus 
+```
 
 ### Installation
 
