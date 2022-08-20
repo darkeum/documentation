@@ -14,7 +14,7 @@ title: Модели (Models)
 
 ### Правила {#rules}
 
-- Все модели ДОЛЖНЫ расширяться из <class>`Boot\Abstracts\Models\Model`</class>.
+- Все модели ДОЛЖНЫ расширяться из <c>`Boot\Abstracts\Models\Model`</c>.
  
 ### Структура папок {#folder-structure}
 

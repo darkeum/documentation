@@ -13,7 +13,7 @@ title: Задачи (Tasks)
 
 ### Правила {#rules}
 
-- Все задачи должны наследоваться <class>`Boot\Abstracts\Tasks\Task`</class>.
+- Все задачи должны наследоваться <c>`Boot\Abstracts\Tasks\Task`</c>.
 
 ### Структура папок {#folder-structure}
 

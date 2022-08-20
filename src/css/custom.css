@@ -168,14 +168,27 @@ var, red, false, false code {
   color: var(--danger);
 }
 
-/* Цвета типов */
-func, func code {
-  color: var(--cyan);
-  border-color: var(--cyan);
+/* Цвета типов - */
+/*
+c - Класс
+f - Функция
+v - Значение
+
+*/
+
+c, c code {
+  color: var(--indigo);
+  border-color: var(--indigo);
 }
-class, class code {
+
+f, f code {
   color: var(--primary);
   border-color: var(--primary);
+}
+
+v, v code {
+  color: var(--cyan);
+  border-color: var(--cyan);
 }
 
 /*  */
