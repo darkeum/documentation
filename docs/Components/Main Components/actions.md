@@ -12,7 +12,7 @@ title: Действия (Actions)
 
 ### Правила {#rules}
 
-- Все действия должны наследоваться <false>`Boot\Abstracts\Actions\Action`</false>.
+- Все действия должны наследоваться <c>`Boot\Abstracts\Actions\Action`</c>.
 
 ### Структура папок {#folder-structure}
 
@@ -68,6 +68,6 @@ class SampleAction extends Action
         return $this->deleted($item);
     }
 ```
-:::tip
-Одно и то же действие МОЖЕТ быть вызвано несколькими контроллерами ( Web, Api, Cli ).
+:::tip Совет
+Одно и то же действие <true>**МОЖЕТ**</true> быть вызвано несколькими контроллерами ( **Web, Api, Cli** ).
 :::
