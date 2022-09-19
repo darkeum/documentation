@@ -9,7 +9,7 @@ title: Задачи (Tasks)
 
 ### Определение и принципы {#definition-principles}
 
-Прочтите [**Определения и принципы -> Задачи (Tasks)**](/docs/Structure/Definitions/routes)
+Прочтите [**Определения и принципы <ar/> Задачи (Tasks)**](/docs/Structure/Definitions/routes)
 
 ### Правила {#rules}
 
