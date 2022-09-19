@@ -152,9 +152,9 @@
   color: var(--dark);
 }
 
-code {
-  /*white-space: nowrap;*/
-  /*cursor: pointer;*/
+v code, f code, c code, false code, true code, else code {
+  white-space: nowrap;
+  cursor: pointer;
 }
 
 ar {
