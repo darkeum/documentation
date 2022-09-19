@@ -9,11 +9,11 @@ title: Маршрутизация (Routes)
 
 ### Определение и принципы {#definition-principles}
 
-Прочтите [**Определения и принципы -> Маршрутизация (Routes)**](/docs/Structure/Definitions/routes)
+Прочтите [**Определения и принципы <ar/> Маршрутизация (Routes)**](/docs/Structure/Definitions/routes)
 
 ### Правила {#rules}
 
-- Файлы маршрутов API должны быть названы в соответствии с версией, доступностью и функциональностью их API. например <false>`CreateOrder.v1.public.php`</false>, <false>`FulfillOrder.v2.public.php`</false>, <false>`CancelOrder.v1.private.php`</false> и тд.
+- Файлы маршрутов API должны быть названы в соответствии с версией, доступностью и функциональностью их API. например <c>`CreateOrder.v1.public.php`</c>, <c>`FulfillOrder.v2.public.php`</c>, <c>`CancelOrder.v1.private.php`</c> и тд.
 - Файлы веб-маршрута очень похожи на веб-файлы API, но они могут называться как угодно.
 
 ### Структура папок {#folder-structure}

@@ -10,7 +10,7 @@ title: Модели (Models)
 
 ### Определение и принципы {#definition-principles} 
 
-Прочтите [**Определения и принципы -> Модели (Models)**](/docs/Structure/Definitions/models)
+Прочтите [**Определения и принципы <ar/> Модели (Models)**](/docs/Structure/Definitions/models)
 
 ### Правила {#rules}
 
