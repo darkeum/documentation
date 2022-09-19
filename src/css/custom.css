@@ -152,9 +152,24 @@
   color: var(--dark);
 }
 
-/** code {*/
-/*  cursor: pointer;*/
-/*}*/
+code {
+  /*white-space: nowrap;*/
+  /*cursor: pointer;*/
+}
+
+ar {
+  margin-right: 20px;
+  position: relative;
+}
+
+ar:after {
+  content: '→';
+  position: absolute;
+  right: -16px;
+  bottom: -5px;
+  font-size: 20px;
+  font-weight: bold;
+}
 
 green, true, true code {
   color: var(--green);
