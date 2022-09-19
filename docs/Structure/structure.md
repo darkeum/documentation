@@ -35,25 +35,25 @@ Container
 	├── Tests
 	│   ├── Unit
 	│   └── Traits
-	└── UI
-	    ├── API
-	    │   ├── Routes
-	    │   ├── Controllers
-	    │   ├── Requests
-	    │   ├── Transformers
+	├── UI
+	│   ├── API
+	│   │   ├── Routes
+	│   │   ├── Controllers
+	│   │   ├── Requests
+	│   │   ├── Transformers
+	│   │   └── Tests
+	│   │         └── Functional
+	│   ├── WEB
+	│   │   ├── Routes
+	│   │   ├── Controllers
+	│   │   ├── Requests
+	│   │   ├── Grid
+	│   │   ├── Views
 	    │   └── Tests
-	    │       └── Functional
-	    ├── WEB
-	    │   ├── Routes
-	    │   ├── Controllers
-	    │   ├── Requests
-	    │   ├── Grid
-	    │   ├── Views
-	    │   └── Tests
-	    │       └── Acceptance
+	    │         └── Acceptance
 	    └── CLI
-	        ├── Routes
-	        ├── Commands
-	        └── Tests
-	            └── Functional
+	           ├── Routes
+	           ├── Commands
+	           └── Tests
+	                 └── Functional
 ```
