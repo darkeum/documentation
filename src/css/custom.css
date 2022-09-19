@@ -206,6 +206,11 @@ v, v code {
   border-color: var(--cyan);
 }
 
+r, r code {
+  color: var(--danger);
+  border-color: var(--danger);
+}
+
 /*  */
 
 a {
