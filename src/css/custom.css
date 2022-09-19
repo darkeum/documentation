@@ -306,3 +306,7 @@ a.button svg {
   vertical-align: middle;
   margin-left: 4px;
 }
+
+.table-of-contents__link {
+  line-height: normal;
+}
