@@ -171,18 +171,6 @@ ar:after {
   font-weight: bold;
 }
 
-green, true, true code {
-  color: var(--green);
-}
-
-blue, else, else code {
-  color: var(--primary);
-}
-
-var, red, false, false code {
-  color: var(--danger);
-}
-
 /* Цвета типов - */
 /*
 c - Класс
@@ -209,6 +197,19 @@ v, v code {
 r, r code {
   color: var(--danger);
   border-color: var(--danger);
+}
+
+/* Цвета */
+green, true, true code, scs, scs code, t, t code {
+  color: var(--green);
+}
+
+blue, else, else code, e, e code {
+  color: var(--primary);
+}
+
+var, red, false, false code, dng, dng code {
+  color: var(--danger);
 }
 
 /*  */
