@@ -152,7 +152,7 @@
   color: var(--dark);
 }
 
-v code, f code, c code, false code, true code, else code {
+v code, f code, c code, g code, false code, true code, else code {
   white-space: nowrap;
   cursor: pointer;
 }
@@ -178,6 +178,11 @@ f - Функция
 v - Значение
 
 */
+
+g, g code {
+  color: var(--gray-dark);
+  border-color: var(--gray-dark);
+}
 
 c, c code {
   color: var(--indigo);
