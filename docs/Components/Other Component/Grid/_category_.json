@@ -1,0 +1,8 @@
+{
+  "label": "Списки (Grids)",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "Работа с Grid (Таблицы на основе DataTables.js)"
+  }
+}
