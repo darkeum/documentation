@@ -31,6 +31,7 @@ Container
 	│   ├── Transporters
 	│   └── Rules
     ├── Resources
+	│   ├── Assets
 	│   ├── Languages
 	├── Tests
 	│   ├── Unit
