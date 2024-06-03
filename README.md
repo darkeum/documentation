@@ -1,49 +1,33 @@
-# Website
+# Описание
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+Документация к фреймворку **Darklyy**
+**Darklyy** — это фреймворк для веб-приложений. Веб-фреймворк обеспечивает структуру и отправную точку для создания вашего приложения, позволяя вам сосредоточиться на создании, а не над базовыми функциями.
 
-npm - https://www.npmjs.com/package/docusaurus
+# Подготовка к развертыванию {#prepare}
 
-### Быстрая установка
+Для развертывание разработки документации необходимо выполнить следующие действия:
 
-``` 
-$ npm i docusaurus 
-```
+1. Получить доступ к закрытому репозиторию [Git](https://git.ae-work.ru/pris/documentation)
+2. Скачать и установить [Git](https://git-scm.com/download/win)
+3. Скачать и установить [Node.js](https://nodejs.org/ru) (рекомендуется v18.18.0)
 
-### Installation
+# Установка
 
-```
-$ yarn
-```
+1. Создать директорию где будет развернута документация
+2. Открыть Git Bush в созданной директории
+3. Выполнить команду `git clone https://git.ae-work.ru/pris/documentation.git .` и дождаться развертывания проекта
+4. Далее откройте папку с проектом в VSCode, для этого нажмите правой кнопкой в папке проекта и выберите пункт "Открыть с помощью Code"
+5. Откройте терминал в VSCode, для этого внизу окна нажмите на раздел "Сведения" и выберите вкладку "Терминал" или создайте новый терминал и верхнего меню (Терминал->Новый терминал)
+6. В терминале пропишите команду `npm i docusaurus`
 
-### Local Development
+# Запуск
 
-```
-$ yarn start
-```
+1. Откройте папку с проектом в VSCode, для этого нажмите правой кнопкой в папке проекта и выберите пункт "Открыть с помощью Code"
+2. В терминале пропишите команду `npm start`
+3. Откройте в браузере [http://localhost:3000/](http://localhost:3000/), подтвердите ошибку безопасности и убедитесь что проект работает
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+# Редактирование документации
 
-### Build
+Документация написана с использованием Языка разметки Markdown, для этого в VSCode рекомендуется установить [расширение](https://marketplace.visualstudio.com/items?itemName=zaaack.markdown-editorhttps:/) графического редактора для данного языка
 
-```
-$ yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+# Структура документации
